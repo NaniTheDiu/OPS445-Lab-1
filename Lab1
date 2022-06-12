@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+
+#This is lab1.py
+
+currentyear = input('Current Year: ')
+
+birthyear = input('Year you were born: ')
+
+age = int(currentyear)_ - int(birthyear)
+
+print(' You are ' + str(age) + ' years old!')
